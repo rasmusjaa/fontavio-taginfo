@@ -13,12 +13,11 @@ https://raw.githubusercontent.com/rasmusjaa/fontavio-taginfo/main/taginfo.json
 
 ## Why it is not served from fontavio.com
 
-It was, at first. fontavio.com sits behind Cloudflare with Bot Fight Mode on,
+Fontavio.com sits behind Cloudflare with Bot Fight Mode on,
 which issues a managed challenge to requests from datacenter IP ranges. A
 browser gets the file; an automated fetch from a CI runner or a server gets an
 HTML challenge page instead, which is not valid JSON. Cloudflare's free plan
-has no per-path exception for that setting, so the file moved somewhere with
-no bot protection in front of it rather than weakening the site's.
+has no per-path exception for that setting, so the file was moved here.
 
 ## Changing it
 
