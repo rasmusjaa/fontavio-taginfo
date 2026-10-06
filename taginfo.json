@@ -1,0 +1,376 @@
+{
+  "data_format": 1,
+  "data_url": "https://raw.githubusercontent.com/rasmusjaa/fontavio-taginfo/main/taginfo.json",
+  "data_updated": "20261006T200000Z",
+  "project": {
+    "name": "Fontavio",
+    "description": "Free map app of drinking water, fill-up taps, toilets, showers, laundry, dump stations and marina pump-outs in Europe, the US and Canada.",
+    "project_url": "https://fontavio.com/",
+    "doc_url": "https://wiki.openstreetmap.org/wiki/Fontavio",
+    "icon_url": "https://fontavio.com/favicon.svg",
+    "contact_name": "Rasmus Jaakonmäki",
+    "contact_email": "support@fontavio.com"
+  },
+  "tags": [
+    {
+      "key": "amenity",
+      "value": "drinking_water",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as drinking water, unless drinking_water=no, which is shown as non-potable water."
+    },
+    {
+      "key": "amenity",
+      "value": "fountain",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as drinking water only with drinking_water=yes. Plain fountains are skipped."
+    },
+    {
+      "key": "man_made",
+      "value": "water_tap",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Drinking water with drinking_water=yes, otherwise shown as non-potable water."
+    },
+    {
+      "key": "natural",
+      "value": "spring",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as drinking water only with drinking_water=yes."
+    },
+    {
+      "key": "amenity",
+      "value": "water_point",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a fill-up tap for campervans and boats."
+    },
+    {
+      "key": "waterway",
+      "value": "water_point",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a fill-up tap for boats."
+    },
+    {
+      "key": "drinking_water",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Decides whether water is shown as drinking water. Also read on highway=rest_area and highway=services."
+    },
+    {
+      "key": "amenity",
+      "value": "toilets",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a toilet."
+    },
+    {
+      "key": "wheelchair",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "yes or designated marks a place as accessible."
+    },
+    {
+      "key": "toilets:wheelchair",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "yes or designated marks a toilet as accessible."
+    },
+    {
+      "key": "changing_table",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a toilet detail."
+    },
+    {
+      "key": "diaper",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Read as the older spelling of changing_table."
+    },
+    {
+      "key": "centralkey",
+      "value": "eurokey",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a Euro key toilet."
+    },
+    {
+      "key": "amenity",
+      "value": "shower",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a shower."
+    },
+    {
+      "key": "hot_water",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a shower detail (hot water)."
+    },
+    {
+      "key": "shop",
+      "value": "laundry",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a laundry only with self_service=yes."
+    },
+    {
+      "key": "self_service",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Required for shop=laundry. Also shown on pump-outs."
+    },
+    {
+      "key": "amenity",
+      "value": "washing_machine",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a laundry."
+    },
+    {
+      "key": "amenity",
+      "value": "sanitary_dump_station",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a grey and black water dump station."
+    },
+    {
+      "key": "waterway",
+      "value": "sanitary_dump_station",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a marine pump-out."
+    },
+    {
+      "key": "sanitary_dump_station:grey_water",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Marks a dump station as taking grey water, which gives it its own grey water category."
+    },
+    {
+      "key": "sanitary_dump_station:round_drain",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a dump station detail."
+    },
+    {
+      "key": "sanitary_dump_station:gravity",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a dump station detail."
+    },
+    {
+      "key": "sanitary_dump_station:chemical_toilet",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a cassette dump detail."
+    },
+    {
+      "key": "sanitary_dump_station:basin",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a cassette dump detail."
+    },
+    {
+      "key": "sanitary_dump_station:accepted",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a dump station detail."
+    },
+    {
+      "key": "leisure",
+      "value": "marina",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a marina with its water, power, berths and pump-out."
+    },
+    {
+      "key": "seamark:small_craft_facility:category",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "pump-out and other facility values are read on marinas and harbours."
+    },
+    {
+      "key": "seamark:type",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Identifies a standalone harbour facility."
+    },
+    {
+      "key": "harbour",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Identifies a standalone harbour facility."
+    },
+    {
+      "key": "power_supply",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a marina detail."
+    },
+    {
+      "key": "guest_mooring",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as a marina detail (guest berths)."
+    },
+    {
+      "key": "capacity",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Total berths on a marina, when the value is a plain number."
+    },
+    {
+      "key": "highway",
+      "value": "rest_area",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Imported when it carries drinking_water=yes or toilets=yes."
+    },
+    {
+      "key": "highway",
+      "value": "services",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Imported when it carries drinking_water=yes or toilets=yes."
+    },
+    {
+      "key": "toilets",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "toilets=yes on highway=rest_area or services adds a toilet."
+    },
+    {
+      "key": "fee",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as free or paid."
+    },
+    {
+      "key": "charge",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as the price, as written."
+    },
+    {
+      "key": "access",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as public, customers only, or permit. Places with access=private or access=no are left out."
+    },
+    {
+      "key": "opening_hours",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown with an open or closed state."
+    },
+    {
+      "key": "seasonal",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "seasonal=yes or seasonal=summer marks a place as closed in winter."
+    },
+    {
+      "key": "operator",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown in the place description as “Operator: ...” when present."
+    },
+    {
+      "key": "name",
+      "object_types": [
+        "node",
+        "way"
+      ],
+      "description": "Shown as the place name."
+    }
+  ]
+}
